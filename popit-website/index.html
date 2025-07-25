@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PopIt World: ¡El mejor juguete antiestrés!">
+  <title>Pop It World</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__top">
+      <span class="header__brand">POPITWORLD.COM</span>
+      <!-- Botón de menú hamburguesa -->
+      <div id="burger" class="burger" aria-label="Abrir menú" aria-expanded="false" tabindex="0">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </div>
+      <nav class="header__nav">
+        <a href="#about">¿Qué es?</a>
+        <a href="#gallery">Galería</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">¡POP IT!</h1>
+        <p class="hero__subtitle">El mejor juguete antiestrés: ¡burbuja infinita!</p>
+        <a href="#gallery" class="btn btn--main">COMPRAR AHORA</a>
+      </div>
+      <img src="assets/images/amongus.png" alt="Pop It Arcoíris" class="hero__img">
+      <div class="hero__bg-shape"></div>
+    </section>
+  </header>
+
+  <main>
+    <section class="about" id="about">
+      <h2>¿Qué es Pop It?</h2>
+      <p>
+        Pop It se traduce literalmente como "¡haz pop a esto!". Es un juego infantil, similar a explotar plástico de burbujas, pero a diferencia de este, ¡puedes presionar las burbujas de silicona una y otra vez! Disfruta de la diversión y la sensación relajante sin fin.
+      </p>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h2>¡Elige tu Pop-It!</h2>
+      <div class="gallery__products">
+        <div class="product">
+          <img src="assets/images/square.png" alt="PopIt Cuadrado">
+          <span>Cuadrado de colores</span>
+          <a href="#" class="btn">COMPRAR</a>
+        </div>
+        <div class="product">
+          <img src="assets/images/amongus.png" alt="PopIt Among Us">
+          <span>Among Us, marmoleado</span>
+          <a href="#" class="btn">COMPRAR</a>
+        </div>
+        <div class="product">
+          <img src="assets/images/round.png" alt="PopIt Redondo">
+          <span>Redondo de colores</span>
+          <a href="#" class="btn">COMPRAR</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="rules">
+      <div class="rules__content">
+        <h2>Reglas del juego</h2>
+        <p>
+          Los jugadores se turnan para presionar burbujas. Debes terminar la fila que comenzaste. Puedes presionar hasta 3 burbujas a la vez (deben ser adyacentes). ¡El objetivo es hacer que tu oponente presione la última burbuja!
+        </p>
+      </div>
+      <img src="assets/images/photo.jpg" alt="Jugando Pop It" class="rules__img">
+      <div class="rules__bg-shape"></div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer__top">
+      <span>POPITWORLD.COM</span>
+      <nav>
+        <a href="#">Pago</a>
+        <a href="#">Envío</a>
+        <a href="#">Mayoristas</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2025 PopIt World. Todos los derechos reservados.</span>
+      <nav class="footer__social">
+        <a href="https://instagram.com/" target="_blank" aria-label="Instagram">
+            <img src="assets/instagram/instagram.svg" alt="Instagram" width="24" height="24">
+        </a>
+        <a href="https://facebook.com/" target="_blank" aria-label="Facebook">
+          <img src="assets/icons/facebook.svg" alt="Facebook" width="24" height="24">
+        </a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
